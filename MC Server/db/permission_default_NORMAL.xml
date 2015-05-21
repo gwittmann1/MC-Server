@@ -1,0 +1,16 @@
+<permission_default_NORMAL>
+  <tableProperties>
+    <id auto-increment="true" data-type="INTEGER" column-type="PRIMARY" is-list="false" not-null="false" />
+    <owner auto-increment="false" data-type="STRING" column-type="NORMAL" is-list="false" not-null="false" />
+    <path auto-increment="false" data-type="STRING" column-type="NORMAL" is-list="false" not-null="false" />
+    <type auto-increment="false" data-type="STRING" column-type="NORMAL" is-list="false" not-null="false" />
+    <value auto-increment="false" data-type="BOOLEAN" column-type="NORMAL" is-list="false" not-null="false" />
+  </tableProperties>
+  <entry>
+    <id>1</id>
+    <owner>cbf58151-0ddf-4f52-aeb8-cf96a863a1b4</owner>
+    <path>canary.world.commandblock</path>
+    <type>player</type>
+    <value>true</value>
+  </entry>
+</permission_default_NORMAL>

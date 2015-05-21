@@ -1,0 +1,31 @@
+[10:52:33] [CanaryMod] [INFO]: Starting: CanaryMod 1.8.0-1.2.0
+[10:52:33] [CanaryMod] [INFO]: Canary Path: /Users/gwittmann/Documents/MC Server/CanaryMod-1.2.0.jar & Working From: /Users/gwittmann/Documents/MC Server
+[10:52:34] [CanaryMod] [INFO]: Registered xml Database
+[10:52:34] [CanaryMod] [INFO]: Found 1 plugins; total: 1
+[10:52:35] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Starting minecraft server version 1.8
+[10:52:35] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Loading properties
+[10:52:35] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Generating keypair
+[10:52:36] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Starting Minecraft server on *:25565
+[10:52:36] [CanaryMod] [INFO]: Enabling early Plugins...
+[10:52:36] [CanaryMod] [INFO]: Enabling late Plugins...
+[10:52:36] [CanaryMod] [INFO]: Enabling plugin ScriptCraft
+[10:52:37] [ScriptCraft] [WARN]: alias plugin is not yet supported in CanaryMod
+[10:52:37] [ScriptCraft] [WARN]: commando-test not yet supported in CanaryMod
+[10:52:37] [ScriptCraft] [WARN]: commando plugin is not yet supported in CanaryMod
+[10:52:37] [ScriptCraft] [WARN]: cow-clicker minigame is not yet supported in CanaryMod and Craftbukkit
+[10:52:38] [net.minecraft.server.MinecraftServer] [INFO]: Preparing start region for level default_NORMAL (0)
+[10:52:39] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 40%
+[10:52:39] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Done (3.167s)! For help, type "help" or "?"
+[10:52:39] [ScriptCraft] [INFO]: js-patch setTimeout() test complete
+[10:52:42] [net.minecraft.server.network.NetHandlerLoginServer] [INFO]: UUID of player Brickerbeast is cbf58151-0ddf-4f52-aeb8-cf96a863a1b4
+[10:52:42] [net.minecraft.server.management.ServerConfigurationManager] [INFO]: Brickerbeast[/127.0.0.1:54013] logged in with entity id 306 at (2000.5153619470075, 94.00944493661723, 2002.069740272916)
+[10:52:44] [net.minecraft.server.MinecraftServer] [INFO]: Brickerbeast joined the game
+[10:52:51] [net.minecraft.server.MinecraftServer] [WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 7095ms behind, skipping 141 tick(s)
+[10:53:11] [net.minecraft.server.MinecraftServer] [WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6618ms behind, skipping 132 tick(s)
+[10:56:21] [CanaryMod] [INFO]: Command used by Brickerbeast: /js tree()
+[10:56:34] [net.minecraft.server.MinecraftServer] [WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2773ms behind, skipping 55 tick(s)
+[11:00:46] [net.minecraft.server.MinecraftServer] [INFO]: [Brickerbeast: Set the time to 1000]
+[11:00:46] [CanaryMod] [INFO]: Command used by Brickerbeast: /time set day
+[11:00:52] [ScriptCraft] [ERROR]: Error while trying to evaluate javascript: tree(), Error: JavaException: javax.script.ScriptException: sun.org.mozilla.javascript.internal.EcmaError: TypeError: Cannot call method "fwd" of undefined (<Unknown source>#146) in <Unknown source> at line number 146
+[11:00:52] [ScriptCraft] [ERROR]: javax.script.ScriptException: sun.org.mozilla.javascript.internal.JavaScriptException: JavaException: javax.script.ScriptException: sun.org.mozilla.javascript.internal.EcmaError: TypeError: Cannot call method "fwd" of undefined (<Unknown source>#146) in <Unknown source> at line number 146 (<Unknown source>#623) in <Unknown source> at line number 623
+[11:00:52] [CanaryMod] [INFO]: Command used by Brickerbeast: /js tree()
